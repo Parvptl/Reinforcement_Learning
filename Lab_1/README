@@ -1,0 +1,88 @@
+# 🧠 Lab 1 – MDPs, GridWorld & Value Function Approximation
+
+**Course:** EE 5531 – Reinforcement Learning Based Control  
+**Institution:** Indian Institute of Technology Palakkad
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)](https://pytorch.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
+
+---
+
+## 🚀 Overview
+
+This lab introduces the fundamental concepts of **Reinforcement Learning** through both theoretical exercises and practical implementation.
+
+The lab focuses on **Markov Decision Processes (MDPs)**, GridWorld environments, stochastic transitions, and basic **value function approximation using PyTorch**.
+
+---
+
+## ⚙️ Key Concepts
+
+- Markov Decision Processes (MDPs)
+- States, actions, rewards and transitions
+- Deterministic and stochastic environments
+- Markov property
+- Agent–environment interaction
+- PyTorch tensors and operations
+- Automatic differentiation
+- Finite-difference gradient verification
+- Value function approximation
+- Neural-network based learning
+- Learning-rate comparison
+
+---
+
+## 🧩 Implementations
+
+The programming part of the lab includes:
+
+- Custom **5 × 5 GridWorld** environment
+- Boundary and blocked-cell handling
+- Goal-state rewards
+- Stochastic action transitions
+- Empirical transition probability estimation
+- MDP formulation of the environment
+- PyTorch tensor operations
+- Automatic gradient computation
+- Numerical gradient verification
+- Neural-network value function
+- Training using MSE loss and Adam optimizer
+- Training-loss visualization
+- Learning-rate experiments
+
+---
+
+## 📊 Highlights
+
+- Implemented an RL environment from scratch
+- Compared deterministic and stochastic state transitions
+- Verified theoretical transition probabilities experimentally
+- Compared automatic differentiation with finite differences
+- Trained a neural network to approximate a value function
+- Studied the effect of different learning rates on convergence
+
+---
+
+## 🎯 Outcome
+
+This lab builds the foundation for understanding how an RL problem can be formulated as an **MDP**, implemented computationally, and combined with **function approximation**.
+
+It provides the groundwork for more advanced topics such as **Monte Carlo methods, Temporal-Difference learning, Deep Reinforcement Learning, and policy/value-based algorithms** covered later in the course.
+
+---
+
+## 📚 Reference
+
+Sutton, R. S. & Barto, A. G.  
+*Reinforcement Learning: An Introduction*, 2nd Edition.
+
+---
+
+## 📁 Files
+
+```text
+Lab_1/
+│
+├── Assignment_1_EE5531.ipynb
+└── README.md

@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+dl_env/
+rl_env/
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Datasets
+data/
+datasets/
+
+# PyTorch / ML model weights
+*.pt
+*.pth
+*.ckpt
+
+# TensorBoard
+runs/
+tensorboard/
+
+# Experiment outputs
+outputs/
+results/
+checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Python cache / test
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
